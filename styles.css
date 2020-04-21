@@ -1,0 +1,266 @@
+/* Global styles top of page */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .header {
+    background-color: rgba(4, 83, 4, 0.856);
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 900;
+    border-radius: 7px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.22), 0 5px 10px rgba(0,0,0,0.24);
+  }
+  
+  /* Homepage ________________________________________________*/
+  .menu {
+    list-style-type: none;
+    margin: 14px;
+  }
+  
+  .menu li {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px 0px 5px 7px;
+    margin: 0px 0px 0px 0px; 
+    background-color: #c8e7d8;
+    color: #160606f6;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu a:hover {
+    display: inline-block;
+    background-color: rgba(4, 83, 4, 0.856);
+  }
+
+  .container {
+    border: 3px solid rgb(3, 85, 3);
+    margin: 14px 0px 0px 15px; 
+    padding: 9px 9px 9px 10px;
+    max-width: 11em;
+    display: flex;
+    border-radius: 7px;
+    -webkit-box-shadow: 7px 5px 20px 0px rgba(0,0,0,0.55);
+  }
+
+  .container:hover {
+    opacity: 0.8;
+  }
+
+  .headshot {
+        padding: 5px;
+        height: 100%;
+        object-fit: contain;
+        align-self: flex-start;
+  }
+
+  .aside {
+    background-color: #c8e7d8;
+    margin: 0px 0px 0px 0px; 
+    padding: 14px 0px 15px 15px;
+    color: #160606f6;
+    text-align: left;
+    font-size: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .aside h3 {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+  }
+    
+  .aside p{
+    margin: 0px 0px 7px 0px; 
+    padding: 0px 0px 0px 0px;
+  } 
+
+
+/* Projects ________________________________________________*/
+
+.container-projects {
+  border: 3px solid rgb(3, 85, 3);
+  margin: 25px 0px 0px 15px; 
+  padding: 9px 9px 9px 10px;
+  max-width: 17.5em;
+  display: flex;
+  border-radius: 7px;
+  -webkit-box-shadow: 7px 5px 20px 0px rgba(0,0,0,0.55);
+}
+
+  .proj-image {
+    padding: 5px;
+    height: 100%;
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+    object-fit: contain;
+    align-self: flex-start;
+  }
+
+  .proj-connect {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 15px;
+  }
+  .proj-title {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 15px;
+  }
+
+  .proj-descript {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 15px 15px; 
+  }
+
+  .proj-item {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 15px; 
+  }
+
+/* Resume ________________________________________________*/
+
+.container-rez {
+  border: 3px solid rgb(3, 85, 3);
+  margin: 25px 0px 0px 15px; 
+  padding: 9px 9px 9px 10px;
+  max-width: 30em;
+  display: flex;
+  border-radius: 7px;
+  -webkit-box-shadow: 7px 5px 20px 0px rgba(0,0,0,0.55);
+}
+
+.rez-caption {
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 5px 15px;
+}
+
+.rez-info {
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 0px 15px;
+}
+
+.rez-section {
+  font-weight: bolder;
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 15px 15px;
+  color: rgba(4, 83, 4, 0.856)
+}
+
+  .rez-biz {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 15px;
+  }
+
+  .rez-title {
+      margin: 0px 0px 0px 0px; 
+      padding: 0px 0px 0px 15px;
+  }
+
+  .rez-descript {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 15px 15px;
+  }
+
+
+/* Footer ________________________________________________*/
+
+  .footer {
+    list-style-type: none;
+    margin: 14px;
+  }
+      
+  .footer li {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px 0px 5px 7px;
+    margin: 0px 0px 0px 0px; 
+    background-color: #c8e7d8;
+    color: #160606f6;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+      
+    .footer a:hover {
+      display: inline-block;
+      background-color: rgba(4, 83, 4, 0.856);
+    }
+
+
+/* RWD Media Queries________________________________________*/
+
+ /* For mobile phones: */
+ [class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+} 
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: #f5fdf9;
+  }
+}
